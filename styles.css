@@ -1,0 +1,12 @@
+body{
+	font-family: 'Anonymous Pro', monospace;
+#my-header {
+    	color: #FF0000;
+    	font-size: 22 px;
+    }
+    .my-list-item {
+    	font-size: 16px;
+    }
+    .my-list-item a:hover {
+    	color: #00FF00;
+    }
