@@ -16,9 +16,24 @@ body{
 
     }
     .my-list-item {
+    	
+    	margin-left: 60px;
+    	margin-top: 0px;
+    	color: #808080;
+    	font-size: 20px;
+    	padding: 0px;
+    	list-style-type: none;
+    
+    	margin: 0px;
+
+  
+
+    }
+
+      .class1 {
     	display: block;
-    	text-align: center;
-    	margin-left: 260px;
+    	text-align: left;
+    	margin-left: 60px;
     	margin-top: 0px;
     	color: #808080;
     	font-size: 20px;
@@ -26,6 +41,14 @@ body{
     	list-style: none;
     	float: left;
 
+    }
+    .images{
+    	width:500px;
+  		max-width:100%;
+  		float:left;
+   		
+		
+    	   
     }
    
 a:link {text-decoration: none; color: grey;}
