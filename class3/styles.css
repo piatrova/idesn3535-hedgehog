@@ -1,0 +1,172 @@
+#box1{
+	
+	width: 400px;
+	height: 40px;
+	background: #B9529F;}
+
+#box2{
+	
+	width: 950px;
+	height: 40px;
+	background: #F6EB14;}
+
+#box3{
+	
+	width: 400px;
+	height: 40px;
+	background: #F59322;}
+
+#box4{
+	
+	width: 300px;
+	height: 40px;
+	background: #69BD45;}
+
+
+
+#box5{
+	
+	width: 500px;
+	height: 80px;
+	background: #3953A4;
+	border: 1px solid black}
+
+#box6{
+	
+	width: 200px;
+	height: 80px;
+	background: #3953A4;
+	border: 1px solid black}
+
+#box7{
+	
+	width: 200px;
+	height: 80px;
+	background: #3953A4;
+	border: 1px solid black}
+
+#box8{
+	
+	width: 200px;
+	height: 80px;
+	background: #3953A4;
+	border: 1px solid black}
+
+#box9{
+	
+	width: 400px;
+	height: 80px;
+	background: #3953A4;
+	border: 1px solid black}
+
+
+#box10{
+	margin-top:100px;
+ 	width: 450px;
+	height: 250px;
+	background: #ED2024;}
+
+#box11{
+	
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
+
+#box12{
+	
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
+
+#box13{
+	
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
+
+#box14{
+	
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
+
+#box15{
+	
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
+
+#box16{
+	
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
+
+#box17{
+	
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
+
+#box18{
+	
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
+
+#header{
+ 	display:flex;
+ 	justify-content: flex-start;}
+
+
+ #searchbar{
+ 	display:flex;
+ 	margin:auto;
+ 	width:80%;
+ 	margin-top:200px;
+ 	flex-direction:row;
+ 	justify-content:flex-end;}
+
+ #ad{
+ 	display: flex;
+ 	margin: auto;
+ 	width:80%;
+ 	justify-content: flex-end;
+ 		}
+
+
+
+
+ #misc{
+ 		display:flex;
+	 	margin:auto;
+		width:90%;
+ 		margin-top: 150px;
+		justify-content: space-around;
+		flex-wrap: wrap;}
+
+ #all{
+ 		display:flex;
+ 		flex-direction:column;
+ 		}
+
+
+ @media all and (min-width: 480px) and (max-width: 768px) { 
+#misc{
+
+
+ 		}
+		}
+
+
+@media all and (max-width: 480px) {
+		#searchbar{
+		flex-direction:column;
+		align-items: stretch;
+		}
+
+
+ }
+
+
+	
