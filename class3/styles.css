@@ -160,11 +160,21 @@
     	display: flex;
     	flex-direction: column;
     	justify-content: flex-start;
-		
+    	max-width: 100%;}
+    	#ad{max-width: 100%;}
+    	#misc{max-width: 100%;}
 		}
 
+@media all and (min-width: 480px) and (max-width: 768px) { 
+		#misc{
+		max-width: 100%;
+		}
+		#ad{max-width: 100%;}
+		#searchbar{max-width: 100%;}
 
- }
+		}
+
+ 
 
 
 	
