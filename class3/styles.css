@@ -1,3 +1,5 @@
+/* header */
+
 #box1{
 	
 	width: 400px;
@@ -22,7 +24,10 @@
 	height: 40px;
 	background: #69BD45;}
 
+/* header END*/
 
+
+/* Search */
 
 #box5{
 	
@@ -59,6 +64,9 @@
 	background: #3953A4;
 	border: 1px solid black}
 
+/* Search END*/
+
+/* ADD */
 
 #box10{
 	margin-top:100px;
@@ -66,53 +74,69 @@
 	height: 250px;
 	background: #ED2024;}
 
+/* ADD END*/
+
+
+
+/* Bars */
+
 #box11{
 	
-	width: 400px;
-	height: 400px;
-	background: #6FCCDD;}
+	width: 300px;
+	height: 300px;
+	background: #6FCCDD;
+	margin:5px;}
 
 #box12{
 	
-	width: 400px;
-	height: 400px;
-	background: #6FCCDD;}
+	width: 300px;
+	height: 300px;
+	background: #6FCCDD;
+	margin:5px;}
 
 #box13{
 	
-	width: 400px;
-	height: 400px;
-	background: #6FCCDD;}
+	width: 300px;
+	height: 300px;
+	background: #6FCCDD;
+	margin:5px;}
 
 #box14{
 	
-	width: 400px;
-	height: 400px;
-	background: #6FCCDD;}
+	width: 300px;
+	height: 300px;
+	background: #6FCCDD;
+	margin:5px;}
 
 #box15{
 	
-	width: 400px;
-	height: 400px;
-	background: #6FCCDD;}
+	width: 300px;
+	height: 300px;
+	background: #6FCCDD;
+	margin:5px;}
 
 #box16{
 	
-	width: 400px;
-	height: 400px;
-	background: #6FCCDD;}
+	width: 300px;
+	height: 300px;
+	background: #6FCCDD;
+	margin:5px;}
 
 #box17{
 	
-	width: 400px;
-	height: 400px;
-	background: #6FCCDD;}
+	width: 300px;
+	height: 300px;
+	background: #6FCCDD;
+	margin:5px;}
 
 #box18{
 	
-	width: 400px;
-	height: 400px;
-	background: #6FCCDD;}
+	width: 300px;
+	height: 300px;
+	background: #6FCCDD;
+	margin:5px;}
+
+/* Bars end */
 
 #header{
  	display:flex;
@@ -154,15 +178,39 @@
 
 
 @media all and (max-width: 480px) {
+		#menu{
+		width: 200px;
+		height: 40px;
+		background: pink;
+		border: 3px solid black;
+     
 
+		}
+		
 		#searchbar{
 		flex:5;
     	display: flex;
     	flex-direction: column;
     	justify-content: flex-start;
-    	max-width: 100%;}
-    	#ad{max-width: 100%;}
+		max-width: 100%;}
+		
+		#box5{	
+		width: 200px;}
+		
+		#box9{	
+		width: 200px;}
+    	
+		#ad{max-width: 100%;}
     	#misc{max-width: 100%;}
+		#box2, #box9, #box10{
+		visibility: hidden;
+		position: absolute;
+		left: -999999px;}
+		#box3{
+		visibility: hidden;
+		}
+		
+
 		}
 
 @media all and (min-width: 480px) and (max-width: 768px) { 
@@ -174,7 +222,3 @@
 
 		}
 
- 
-
-
-	
