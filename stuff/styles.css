@@ -1,0 +1,40 @@
+body{
+	font-family: 'Anonymous Pro', monospace;
+	font-style: bold;
+	margin:0;
+	padding:auto;
+
+			}
+#header{
+	font-size: 2.5em;
+	text-align: center;
+	}
+
+#container{
+	
+	background-color: yellow;
+	display:grid;
+	grid-template-rows: 20% 80%;
+	padding:20px;
+	border: 1px solid #000;
+	width: 400px;
+	height:600px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#contents{
+	font-size: 1.5em;
+	height:100%;
+}
+			
+
+.cont_row{
+
+	display:grid;
+	grid-template-rows:  25% 25% 25% 25%;
+
+	grid-template-columns: 50% 50%;
+	
+}
+

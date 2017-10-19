@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Tip Calculator
+</title>
+ <link href="../normalize.css" rel="stylesheet"/>
+ <link href="styles.css" rel="stylesheet"/>
+ <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
+ 	<style>
+
+	</style>
+
+</head>
+
+
+ 	<body>
+ 	<div id="container">
+
+ 	<div id="header">Tip Calculator</div>
+<form action="javascript:void(calc())">
+ 		<div id="contents" class="cont_row">
+
+ 		<div id="bill">Bill Amount</div>
+ 		<input type="number" id="billinput"></input>
+ 	
+ 		<div id="percentage">Tip Percentage</div>
+ 		<input type="number" id="numbers"></input>
+
+ 		<div id="tip">Tip Amount</div>
+ 		<input type="number" id="tipinput"></input>
+
+ 		<div id="total">Total Amount</div>
+ 		<input type="number" id="totalinput"></input>
+ 		</div>
+
+ 	</div>
+
+ 	<script>
+	
+	const billinput=document.getElementById("billinput");
+		billinput.addEventListener('keyup', function(){
+			console.log (billinput.value)
+		})
+
+	const numbers=document.getElementById("numbers");
+	numbers.addEventListener('keyup', function(){
+			console.log (numbers.value)  
+	})
+
+
+function calc(e) {
+  e.preventDefault();
+  
+  
+  tipamout.textContent = "billinput"*(tipinput).toFixed(2);
+  totalinput.textContent = "billinput"+(tipamount).toFixed(2);  
+
+	var tipinput = billinput * numbers;
+  	var total = billinput + tipinput;}
+
+		</script>
+
+ 	</body>
+
+
+ </html>

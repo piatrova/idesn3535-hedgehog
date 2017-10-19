@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Tip Calculator
+</title>
+ <link href="../normalize.css" rel="stylesheet"/>
+ <link href="styles.css" rel="stylesheet"/>
+ <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
+ 	<style>
+
+	</style>
+
+</head>
+
+
+ 	<body>
+ 	<div id="container">
+
+ 	<div id="header">Tip Calculator</div>
+<form action="javascript:void(calc())">
+ 		<form action="javascript:void(calc())">
+		<p>
+        Amount: $<input id="bill" type="text">
+        <br>
+		Tip %: <input id="tipPercent" type="number">
+        <br>
+        <input class="buttn1" type="submit" value="Calculate">
+        <br>
+        <div> Tip Amount: <span id="tip" disabled="disabled"></span></div>
+        <br>
+        <div> Total Amount: <span id="total" disabled="disabled"></span></div>
+		</p>
+    </form>
+ 		
+</form>
+
+
+
+
+ 	</div>
+
+ 	<script>
+	
+	function calc() {
+        var bill = Number(document.getElementById('bill').value);
+		var tipPercent = Number(document.getElementById('tipPercent').value);
+        var tip = bill * tipPercent /100;
+        var total_bill = bill + tip;
+
+        document.getElementById("tip").innerHTML= "$"+Number(tip).toFixed(2);
+        document.getElementById("total").innerHTML= "$"+Number(total_bill).toFixed(2);         
+    }
+		</script>
+
+ 	</body>
+
+
+ </html>

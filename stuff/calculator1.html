@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Tip Calculator
+</title>
+ <link href="../normalize.css" rel="stylesheet"/>
+ <link href="styles.css" rel="stylesheet"/>
+ <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
+ 	<style>
+
+	</style>
+
+</head>
+
+
+ 	<body>
+ 	<div id="container">
+
+ 		<div id="header">Tip Calculator</div>
+
+ 		<div id="contents" class="cont_row">
+
+ 		
+ 		<div id="bill">Bill Amount</div>
+ 		<input type="number" id="bill"></input>
+
+ 	
+ 		<div id="percentage">Tip %</div>
+ 		<input type="number" id="tipnumber"></input>
+
+ 		<div id="tip">Tip Amount</div>
+ 		<input type="number" id="tip"></input>
+
+ 		<div id="total">Total Amount</div>
+ 		<input type="number" id="totalamount"></input>
+ 		</div>
+
+ 	</div>
+
+ 	<script>
+ 	var bill = document.getElementById("bill");
+ 	var percentage = document.getElementById("tipnumber");
+	var amount = document.getElementById("tip");
+	var total = document.getElementById("totalamount");
+
+	percentage.innerHTML = percentage_amount + "%"
+	
+	function update() {
+	percentage.innerHTML = percentage_amount + "%"
+
+	bill.value * (percentage_amount /100)
+
+	let tipAmount = parseFloat(bill.value) * parseFloat(percentage_amount/100)
+
+	amount.innerHTML = "$" + tipAmount.to.Fixed(2);
+
+	var totalCoast = parseFloat(bill.value) +tipAmount;
+	total.innerHTML = "$" + totalCost.toFixed (2);
+	};
+
+	bill.addEventListener ('keyup', function(){
+		update()
+	});
+
+	.addEventListener ('keyup', function(){
+		update()
+	});
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+function calc(e) {
+  e.preventDefault();
+  
+  
+ 	var tipinput = billinput * numbers/100;
+  	var total = billinput + tipinput;}
+
+	</script>
+
+ 	</body>
+
+
+ </html>

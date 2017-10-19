@@ -1,5 +1,3 @@
-/* header */
-
 #box1{
 	
 	width: 400px;
@@ -24,10 +22,7 @@
 	height: 40px;
 	background: #69BD45;}
 
-/* header END*/
 
-
-/* Search */
 
 #box5{
 	
@@ -64,9 +59,6 @@
 	background: #3953A4;
 	border: 1px solid black}
 
-/* Search END*/
-
-/* ADD */
 
 #box10{
 	margin-top:100px;
@@ -74,69 +66,53 @@
 	height: 250px;
 	background: #ED2024;}
 
-/* ADD END*/
-
-
-
-/* Bars */
-
 #box11{
 	
-	width: 300px;
-	height: 300px;
-	background: #6FCCDD;
-	margin:5px;}
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
 
 #box12{
 	
-	width: 300px;
-	height: 300px;
-	background: #6FCCDD;
-	margin:5px;}
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
 
 #box13{
 	
-	width: 300px;
-	height: 300px;
-	background: #6FCCDD;
-	margin:5px;}
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
 
 #box14{
 	
-	width: 300px;
-	height: 300px;
-	background: #6FCCDD;
-	margin:5px;}
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
 
 #box15{
 	
-	width: 300px;
-	height: 300px;
-	background: #6FCCDD;
-	margin:5px;}
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
 
 #box16{
 	
-	width: 300px;
-	height: 300px;
-	background: #6FCCDD;
-	margin:5px;}
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
 
 #box17{
 	
-	width: 300px;
-	height: 300px;
-	background: #6FCCDD;
-	margin:5px;}
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
 
 #box18{
 	
-	width: 300px;
-	height: 300px;
-	background: #6FCCDD;
-	margin:5px;}
-
-/* Bars end */
+	width: 400px;
+	height: 400px;
+	background: #6FCCDD;}
 
 #header{
  	display:flex;
@@ -177,48 +153,33 @@
 
 
 
-@media all and (max-width: 600px) {
-		#menu{
-		width: 200px;
-		height: 40px;
-		background: pink;
-		border: 3px solid black;
-     
+@media all and (max-width: 480px) {
 
-		}
-		
 		#searchbar{
 		flex:5;
     	display: flex;
     	flex-direction: column;
     	justify-content: flex-start;
-		max-width: 100%;}
-		
-		#box5{	
-		width: 200px;}
-		
-		#box9{	
-		width: 200px;}
-    	
-		#ad{max-width: 100%;}
+    	max-width: 100%;}
+    	#ad{max-width: 100%;}
     	#misc{max-width: 100%;}
-		#box2, #box9, #box10{
-		visibility: hidden;
-		position: absolute;
-		left: -999999px;}
-		#box3{
-		visibility: hidden;
-		}
-		
-
 		}
 
-@media all and (min-width: 600px) and (max-width: 768px) { 
+@media all and (min-width: 480px) and (max-width: 768px) { 
 		#misc{
 		max-width: 100%;
 		}
-		#ad{max-width: 100%;}
+		#box3{
+					display:none;
+		}
+		#ad{max-width: 100%;
+			display: none;}
 		#searchbar{max-width: 100%;}
+
 
 		}
 
+ 
+
+
+	
