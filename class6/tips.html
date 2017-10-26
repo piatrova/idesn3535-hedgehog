@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="  crossorigin="anonymous"></script>
+   <script>
+
+
+  	$(document).ready(function(){
+
+  		let percentageAmount = 20;
+
+  		function update() {
+  			const billAmount =parseFloat($("#bill-amount").val());
+  			const tipAmount = billAmount * percentageAmount / 100;
+  			$("#tip-amount").text(percentageAmount + "%");
+  			$("#tip-output").text(tipAmount);
+  			$("#total").text(billAmount + tipAmount);
+ 		}
+
+  		// document.getElementById('bill-amount')
+  	$("#bill-amount").on('keyup', update);
+  	$("#add-tip").on('click', function(){
+  	percentageAmount++;
+  	update();
+  	 	})
+  	$("#less-tip").on('click', function(){
+  	percentageAmount--;
+  	update();
+  	})
+
+
+
+   	});
+   	</script>
+
+    <link href="../normalize.css" rel="stylesheet"/>
+    <link href="styles1.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+
+    </head>
+
+    <body>
+<div id="container">
+      <div id="header">
+    	<h1>Tip Calculator</h1>
+      </div>
+      <br>
+      <div id="calc">
+      <br>
+      <input id="bill-amount"/>
+      <br>
+    	<div id="tip-amount">20%</div>
+      <br>
+    	<button id="add-tip">Add Tip!</button>
+      <br>
+    	<button id="less-tip">Less Tip!</button>
+      <br>
+    	<div id="tip-output">0</div>
+      <br>
+    	<div id="total">0</div>
+      </div>
+
+</div>
+
+ </body>
+ </html>

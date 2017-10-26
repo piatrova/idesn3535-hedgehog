@@ -1,0 +1,39 @@
+body{
+	font-family: 'Anonymous Pro', monospace;
+	font-style: bold;
+	background-color: yellow;
+	margin:0;
+	padding:auto;
+
+			}
+
+#container{
+	margin-top: 100px;
+	
+	width: 400px;
+	height:600px;
+	margin: 0 auto;
+	
+}
+
+#calc{
+	width: 200px;
+	height: 400px;
+	margin: 0 auto;
+	padding:auto;
+	height:100%;
+}
+#add-tip{
+	padding:20px;
+	border: 1px solid #000;
+}
+#less-tip{
+	padding:20px;
+	border: 1px solid #000;
+}
+
+#header{
+	margin-top: 50px;
+	text-align: center;
+}
+
